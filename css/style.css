@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+main{
+
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0; bottom: 0;
+    padding: 20px;
+    width: 100%;
+}
+table{
+    overflow: auto;
+}
+table tr td{
+
+    padding: 20px;
+}
+table tr th{
+
+    padding: 20px;
+}
+.content-block{
+    margin-top: 200px;
+    width: 50%;
+    max-height: 700px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    font-size:20px;
+    overflow: auto;
+}
+.content-block > *{
+    margin-top: 50px;
+}
+.cool-form{
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.cool-form input{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+}
+.content-list{
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+.container-two{
+
+    padding: 20px;
+    display: flex;
+    border-collapse: collapse;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+
+}
+.container-two p{
+    padding: 10px;
+}
+.container-two div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.kek{
+    visibility: hidden;
+}
+.container-three{
+    width: 50%;
+    margin-top: 200px;
+    padding: 20px;
+    display: flex;
+    border-collapse: collapse;
+    justify-content: space-between;
+
+}
+.formBut{
+    display: inline-block;
+}
+.link-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 150px;
+    height: 180px;
+    border: 2px solid black;
+
+}
+.link-block a{
+    text-decoration: none;
+    color: black;
+
+}
+.link-block:hover{
+    background-color: lightgray;
+}
+
