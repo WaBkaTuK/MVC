@@ -30,18 +30,6 @@
                 <input type="submit" name="addComm">
             </form>
         </div>
-    <?php if (!empty($_SESSION) && $_SESSION['user']['Status'] == 1) { ?>
-        <div class="content-block">
-            <form method="post" class="cool-form">
-                <input type="hidden" name='id' value="<?= $_POST['id'] ?>">
-                <input type="hidden" name='title' value="<?= $_POST['title'] ?>">
-                <input type="hidden" name='content' value="<?= $_POST['content'] ?>">
-                <label>Оставить комментарий</label><br>
-                <textarea name="commtext" cols="50px" rows="20px" style="resize: none" required></textarea><br><br>
-                <input type="submit" name="addComm">
-            </form>
-        </div>
-    <?php } ?>
 
 </div>
 <?php } ?>

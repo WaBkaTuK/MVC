@@ -15,9 +15,4 @@ class Model
     }
 
 
-    public function update_data()
-    {
-
-    }
-
 }

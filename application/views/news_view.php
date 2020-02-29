@@ -15,7 +15,7 @@
                  <input type="hidden" class="kek" name="id" value="<?= $row['Id'] ?>">
                  <input type="hidden" class="kek" name="title" value='<?= $row['Title']?> '>
                  <input  type="hidden" name="content" value='<?= $row['Content']?> '>
-                  <input type="submit" name="link">            
+                  <input type="submit" name="link" value="Подробнее">
                  </form></td></tr>
 <?php
             }
